@@ -175,7 +175,7 @@ export default function PrismaAdapter(
         },
       });
 
-      if (!session) {
+      if (!prismaSession) {
         return null;
       }
 
